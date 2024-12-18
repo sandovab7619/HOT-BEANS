@@ -1,0 +1,136 @@
+body {
+    margin: 10px;
+    background-color: #0000FF;
+}
+/**********Style the head********** */
+/***Create two equal columns that floats next to each other */
+.HeaderColumnLeft {
+    background-image: url('images/HOTBEANSNAME.png');
+    background-repeat: no-repeat;
+    float: left;
+    width: 40%;
+    height: 10vh;
+}
+/* Create two equal columns that floats next to each other */
+.HeaderColumnRight {
+    background-image: url('images/HOTBEANSPHOTO.png');
+    background-repeat: no-repeat;
+    float: right;
+    width: 40%;
+    height: 10vh;
+}
+.HeaderTitle {
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-size: 3vh;
+}
+.HeaderText {
+    
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-size: 2.3vh;
+}
+/********** Style the nav bar***********/
+/* Clear floats after the columns */
+.HeaderRow:after {
+    content: "";
+    display: table;
+    clear: both;
+    background-color: #ffffff;
+}
+/* The navbar container */
+.topnav
+{
+    overflow:hidden;
+    background-color:#ffffff;
+}
+    /*Navbar Links */
+    .topnav a {
+        float: left;
+        display: normal;
+        color: #0000FF;
+        text-align: center;
+        padding: 3vh 6vh;
+        text-decoration:none;
+        font-weight:bold;
+        font-size:2vh;
+        width:20vh;
+}
+/* Links - change color on hover */
+.topnav a:hover {
+    background-color: #ffffff;
+    color: #0000FF;
+}
+/********** Style the main part of the page**********/
+/* Create three equal columns that floats next to each other*/
+.columnLeft {
+    display: inline-block;
+    width: 30vh;
+}
+/* Create three equal columns that floats next to each other*/
+.columnCentre {
+    display:inline-block;
+    width: 100vh;
+    height: 30em;
+    border-style: ridge;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    
+}
+/* Create three equal columns that floats next to each other*/
+.columnRight {
+    display: inline-block;
+    width: 22vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+/**********Style the footer **********/
+.footer {
+    text-align: center;
+    margin-left: 40vh;
+    padding: 10%;
+    width: 100vh;
+    height: 10vh;
+    /***Fix some images in the footer***/
+    background-image: url(images/HOTBEANSPHOTO.png);
+    background-position: left, center, right;
+    background-size: contain, contain, contain;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+/* Clear floats after the columns */
+.row {
+    width: 100%;
+    max-width: 1900px; /* Adjust this as needed */
+    margin: 1% auto; /* Center the content */
+}
+/********** Style the page elements**********/
+/* Style used for the lists on the home page to make sure thata the images align correctly.*/
+ul {
+    display:inline-block;
+    text-align:center;
+}
+li {
+    text-align: left;
+}
+/***Style used for the paragraph on the company profile page*/
+.ProfileText {
+    display: inline-block;
+    text-align: center;
+    font-weight:bold;
+    font-size: 3vh;
+}
+/***************** Style the error messsages******************* */
+.Error{
+    color:red;
+    font-weight:normal;
+}
+label {
+    font-weight: bold;
+}
